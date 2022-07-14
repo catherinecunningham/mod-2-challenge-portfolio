@@ -1,10 +1,16 @@
+:root {
+    --primary-color: #9caf88;
+    --secondary-color: #ccd6c2;
+    --tertiary-color: #333d29;
+}
+
 * {
-    background: #9caf88;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: var(--primary-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
-    color: #333d29;
+    color: var(--tertiary-color);
 }
 
 .top-left {
@@ -16,11 +22,12 @@ a {
 .lower-title {
     text-align: center;
     font-size: 32px;
+    color: var(--tertiary-color);
 }
 
 /* Header Styles Start */
 header {
-    background-color: #9caf88;
+    background-color: var(--primary-color);
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
@@ -35,7 +42,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-    color: black;
+    color: var(--tertiary-color);
 }
 
 header nav {
@@ -65,12 +72,13 @@ header nav ul li a {
     justify-content: left;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-color: #ccd6c2;
+    background-color: var(--secondary-color);
 }
 
 #profile-img {
     width: 10%;
-    margin: 3.5%
+    margin: 3.5%;
+    border-radius: 15%;
 }
 
 .about-me article {
@@ -78,17 +86,19 @@ header nav ul li a {
     text-align: left;
     margin: 3.5%;
     line-height: 1.2;
-    background-color: #ccd6c2;
+    background-color: var(--secondary-color);
 }
 
 .about-me h2 {
-    background-color: #ccd6c2;
+    background-color: var(--secondary-color);
     font-style: italic;
+    color: var(--tertiary-color);
 }
 
 .about-me p {
-    background-color: #ccd6c2;
+    background-color: var(--secondary-color);
     font-size: 20px;
+    color: var(--tertiary-color);
 }
 /* About Me Styles End */
 
@@ -97,7 +107,7 @@ header nav ul li a {
     position: relative;
     color: black;
     width: 65%;
-    margin: 0 auto;
+    margin: 5px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -105,6 +115,7 @@ header nav ul li a {
 
 .first-image img {
     width: 100%;
+    border-radius: 5%;
 }
 
 .first-image img a {
@@ -128,32 +139,46 @@ header nav ul li a {
 
 .application-image img {
     width: 100%;
+    border-radius: 10%;
 }
 /* About Me Styles End */
 
 /* Contact Info Styles Start */
 .contact-info {
-    background-color: #ccd6c2;
+    background-color: var(--secondary-color);
 }
 
 .contact-info h2 {
-    background-color: #ccd6c2;
+    background-color: var(--secondary-color);
+}
+
+.contact-info a {
+    background-color: var(--secondary-color);
+}
+
+.github-link {
+    text-align: center;
 }
 
 .contact-info address {
-    background-color: #ccd6c2;
+    padding-bottom: 10px;
+    padding-top: 0;
+
+}
+
+.contact-info address {
+    background-color: var(--secondary-color);
     text-align: center;
 }
 
 .contact-info address a {
-    background-color: #ccd6c2;
+    background-color: var(--secondary-color);
 }
-
 /* Contact Info Styles End */
 
 /* Footer Styles Start */
 .footer {
-    background-color: #9caf88;
+    background-color: var(--primary-color);
 }
 
 /* Footer Styles End */
