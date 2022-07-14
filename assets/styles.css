@@ -1,9 +1,56 @@
+* {
+    background: #9caf88;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Styles Start */
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+/* About Me Styles Start */
+.profile-img img {
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
 /* About My Work Styles Start */
 
 /* First Image Styles */
 .first-image {
     position: relative;
-    text-align: center;
     color: black;
 }
 
@@ -11,7 +58,6 @@
 
 .application-image {
     position: relative;
-    text-align: center;
     color: black;
 }
 
