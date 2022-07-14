@@ -216,11 +216,18 @@ header nav ul li a:hover {
         font-size: 24px;
     }
 }
-
 /* END 980PX MEDIA QUERY */
 
 /* MEDIA QUERY FOR 768PX BREAKPOINT */
+@media screen and (max-width: 768px) {
+    #profile-img {
+        width: 30%;
+    }
 
+    .contact-info {
+        font-size: 18px;
+    }
+}
 /* END 768PX MEDIA QUERY */
 
 /*  MEDIA QUERY FOR 575PX BREAKPOINT */
