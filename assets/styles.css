@@ -84,7 +84,7 @@ header nav ul li a:hover {
 /* Header Styles End */
 
 /* About Me Styles Start */
-.about-me {
+#about-me {
     margin: 15px;
     padding: 3px;
     display: flex;
@@ -101,7 +101,7 @@ header nav ul li a:hover {
     border-radius: 15%;
 }
 
-.about-me article {
+#about-me article {
     width: 55%;
     text-align: left;
     margin: 3.5%;
@@ -109,14 +109,14 @@ header nav ul li a:hover {
     background-color: var(--secondary-color);
 }
 
-.about-me h2 {
+#about-me h2 {
     background-color: var(--secondary-color);
     font-style: italic;
     color: var(--tertiary-color);
     margin-top: 40px;
 }
 
-.about-me p {
+#about-me p {
     background-color: var(--secondary-color);
     font-size: 20px;
     color: var(--tertiary-color);
@@ -165,34 +165,34 @@ header nav ul li a:hover {
 /* About Me Styles End */
 
 /* Contact Info Styles Start */
-.contact-info {
+#contact-info {
     background-color: var(--secondary-color);
     width: 100%;
     border: var(--tertiary-color) solid 3px;
 }
 
-.contact-info h2 {
+#contact-info h2 {
     background-color: var(--secondary-color);
     margin-bottom: 5px;
     margin-top: 5px;
 }
 
-.contact-info a {
+#contact-info a {
     background-color: var(--secondary-color);
 }
 
-.contact-info address {
+#contact-info address {
     padding-bottom: 10px;
     padding-top: 0;
     margin-top: 0;
 }
 
-.contact-info address {
+#contact-info address {
     background-color: var(--secondary-color);
     text-align: center;
 }
 
-.contact-info address a {
+#contact-info address a {
     background-color: var(--secondary-color);
 }
 /* Contact Info Styles End */
@@ -211,11 +211,11 @@ header nav ul li a:hover {
         font-size: 24px;
     }
     
-    .about-me h2 {
+    #about-me h2 {
         margin-top: 0;
     }
 
-    .contact-info {
+    #contact-info {
         font-size: 24px;
     }
 }
@@ -227,7 +227,7 @@ header nav ul li a:hover {
         width: 30%;
     }
 
-    .contact-info {
+    #contact-info {
         font-size: 18px;
     }
 }
@@ -261,15 +261,15 @@ header nav ul li a:hover {
         margin-top: 30px;
     }
 
-    .about-me h1 {
+    #about-me h1 {
         margin-bottom: 0;
     }
     
-    .about-me p {
+    #about-me p {
         font-size: 14px;
     }
 
-    .contact-info {
+    #contact-info {
         font-size: 14px;
     }
 
