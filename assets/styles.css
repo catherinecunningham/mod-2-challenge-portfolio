@@ -1,0 +1,22 @@
+/* About My Work Styles Start */
+
+/* First Image Styles */
+.first-image {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+/* Application Image Styles */
+
+.application-image {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
