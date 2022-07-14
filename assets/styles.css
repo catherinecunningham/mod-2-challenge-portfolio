@@ -40,9 +40,17 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 48px;
     margin: 0;
     color: var(--tertiary-color);
+}
+
+header h1 a {
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
 }
 
 header nav {
@@ -58,25 +66,34 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 15px;
+    padding: 15px 20px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
 }
 /* Header Styles End */
 
 /* About Me Styles Start */
 .about-me {
-    margin: 3px;
+    margin: 15px;
     padding: 3px;
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
     align-items: flex-start;
     background-color: var(--secondary-color);
+    border: var(--tertiary-color) solid 3px;
 }
 
 #profile-img {
-    width: 10%;
+    width: 20%;
     margin: 3.5%;
     border-radius: 15%;
 }
@@ -119,7 +136,7 @@ header nav ul li a {
 }
 
 .first-image img a {
-    background: none;
+    background: transparent;
 }
 
 .lower-images {
@@ -146,24 +163,24 @@ header nav ul li a {
 /* Contact Info Styles Start */
 .contact-info {
     background-color: var(--secondary-color);
+    width: 100%;
+    border: var(--tertiary-color) solid 3px;
 }
 
 .contact-info h2 {
     background-color: var(--secondary-color);
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .contact-info a {
     background-color: var(--secondary-color);
 }
 
-.github-link {
-    text-align: center;
-}
-
 .contact-info address {
     padding-bottom: 10px;
     padding-top: 0;
-
+    margin-top: 0;
 }
 
 .contact-info address {
@@ -179,6 +196,8 @@ header nav ul li a {
 /* Footer Styles Start */
 .footer {
     background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    text-align: center;
 }
 
 /* Footer Styles End */
