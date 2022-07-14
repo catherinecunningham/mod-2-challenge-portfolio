@@ -1,6 +1,10 @@
 * {
     background: #9caf88;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: #333d29;
 }
 
 .top-left {
@@ -9,8 +13,14 @@
     left: 16px;
 }
 
+.lower-title {
+    text-align: center;
+    font-size: 32px;
+}
+
 /* Header Styles Start */
 header {
+    background-color: #9caf88;
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
@@ -25,6 +35,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     margin: 0;
+    color: black;
 }
 
 header nav {
@@ -51,20 +62,33 @@ header nav ul li a {
     margin: 3px;
     padding: 3px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-color: #ccd6c2;
 }
 
 #profile-img {
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 400px;
+    width: 10%;
+    margin: 3.5%
+}
+
+.about-me article {
+    width: 55%;
+    text-align: left;
+    margin: 3.5%;
+    line-height: 1.2;
+    background-color: #ccd6c2;
+}
+
+.about-me h2 {
+    background-color: #ccd6c2;
+    font-style: italic;
 }
 
 .about-me p {
-    
+    background-color: #ccd6c2;
+    font-size: 20px;
 }
 /* About Me Styles End */
 
@@ -72,7 +96,7 @@ header nav ul li a {
 .first-image {
     position: relative;
     color: black;
-    width: 100%;
+    width: 65%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -81,6 +105,10 @@ header nav ul li a {
 
 .first-image img {
     width: 100%;
+}
+
+.first-image img a {
+    background: none;
 }
 
 .lower-images {
@@ -104,16 +132,28 @@ header nav ul li a {
 /* About Me Styles End */
 
 /* Contact Info Styles Start */
+.contact-info {
+    background-color: #ccd6c2;
+}
 
+.contact-info h2 {
+    background-color: #ccd6c2;
+}
+
+.contact-info address {
+    background-color: #ccd6c2;
+    text-align: center;
+}
+
+.contact-info address a {
+    background-color: #ccd6c2;
+}
 
 /* Contact Info Styles End */
 
-/* Resume Styles Start */
-
-
-/* Resume Styles End */
-
 /* Footer Styles Start */
-
+.footer {
+    background-color: #9caf88;
+}
 
 /* Footer Styles End */
