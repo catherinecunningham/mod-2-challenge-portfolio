@@ -110,6 +110,7 @@ header nav ul li a:hover {
     background-color: var(--secondary-color);
     font-style: italic;
     color: var(--tertiary-color);
+    margin-top: 40px;
 }
 
 .about-me p {
@@ -199,5 +200,29 @@ header nav ul li a:hover {
     color: var(--tertiary-color);
     text-align: center;
 }
-
 /* Footer Styles End */
+
+/* MEDIA QUERY FOR 980PX BREAKPOINT */
+@media screen and (max-width: 980px) {
+    header nav ul li a {
+        font-size: 24px;
+    }
+    
+    .about-me h2 {
+        margin-top: 0;
+    }
+
+    .contact-info {
+        font-size: 24px;
+    }
+}
+
+/* END 980PX MEDIA QUERY */
+
+/* MEDIA QUERY FOR 768PX BREAKPOINT */
+
+/* END 768PX MEDIA QUERY */
+
+/*  MEDIA QUERY FOR 575PX BREAKPOINT */
+
+/* END 575PX MEDIA QUERY */
